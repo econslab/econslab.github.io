@@ -18,7 +18,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+h7 {
     font-family: 'Fjalla One', sans-serif;
     font-weight: inherit;
 }
@@ -39,7 +40,7 @@ video {
 /* 0.4: Criação do Container do site e elementos reusáveis */
 .container {
     width: 100%;
-    max-width: 960px;
+    max-width: 1550px;
     margin: 0 auto;
     padding: 0 10px;
 }
@@ -71,7 +72,7 @@ video {
 
 /* 1.4: Posicionamento (Flex) */
 .header-flex {
-    display: flex;
+        display: flex;
 
     /* Posicionamento horizontal: Se afastar */
     justify-content: space-between;
@@ -98,7 +99,7 @@ video {
 
 /* 2.1: Tamanho */
 .hero-section {
-    background-color: #01264c;
+    background-color: #082746;
     color: #fff;
 
     /* 2.1.0: Correção margin vazada e precaução tamanho do conteúdo */
@@ -112,25 +113,13 @@ video {
     height: calc(100vh - 79px);
 
 }
-
-/* 2.2: Fundo */
-.hero-section {
-    /* 2.2.1: Definição Background */
-    
-    background-color: #01264c;
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-
-    /* 2.1.2: Background fixo */
-    background-attachment: fixed;
-}   
+ 
 
 /* 2.2: Fundo */
 .hero-section {
     /* 2.2.1: Definição Background */
    
-    background-color: #01264c;
+    background-color: #041c33;
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -359,6 +348,55 @@ video {
     }
 }
 
+.btn {
+
+    font-family: Helvetica;
+    font-size: 35px;
+    text-transform: inherit;
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    width: 500px;
+}
+
+.btn-blue{
+    background: #082746;
+    color: #fff;
+}
 
 
+.posicionarr{
+
+    position: absolute;
+    top: 50%;
+    left: 9%;
+    
+   
+}
+
+.posicionarrr{
+
+    position: absolute;
+    top: 50%;
+    left: 55%;
+   
+}
+
+.posicionar{
+
+    position: absolute;
+    top: 25%;
+    left: 9%;
+   
+}
+
+.posicionarrrr{
+
+    position: absolute;
+    top: 25%;
+    left: 55%;
+   
+}
 
