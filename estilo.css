@@ -319,6 +319,7 @@ video {
 /* Parte 10: Melhorias CSS */
 
 /* 10.1: Header fixo */
+
 .site-header {
     position: sticky;
     top: 0;
