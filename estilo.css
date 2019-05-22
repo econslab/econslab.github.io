@@ -244,6 +244,7 @@ video {
 .footer-flex {
     display: flex;
 
+    
     /* Centralização Vertical */
     align-items: center;
 
