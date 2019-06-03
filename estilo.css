@@ -18,8 +18,7 @@ h2,
 h3,
 h4,
 h5,
-h6,
-h7 {
+h6 {
     font-family: 'Fjalla One', sans-serif;
     font-weight: inherit;
 }
@@ -72,13 +71,13 @@ video {
 
 /* 1.4: Posicionamento (Flex) */
 .header-flex {
-        display: flex;
+    display: flex;
 
     /* Posicionamento horizontal: Se afastar */
     justify-content: space-between;
 
     /* Posicionamento Vertical: Centralizado */
-    align-items: center;
+    align-items: flex-end;
 }
 
 /* 1.5: Navegação */
@@ -95,38 +94,7 @@ video {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-/* Parte 2: Seção Hero */
 
-/* 2.1: Tamanho */
-.hero-section {
-    background-color: #082746;
-    color: #fff;
-
-    /* 2.1.0: Correção margin vazada e precaução tamanho do conteúdo */
-    padding: 20px 0;
-
-    /* 2.1.1: Altura geral e mínima */
-    height: 100vh;
-    min-height: 380px;
-
-    /* 2.1.2: Correção Altura tela */
-    height: calc(100vh - 79px);
-
-}
- 
-
-/* 2.2: Fundo */
-.hero-section {
-    /* 2.2.1: Definição Background */
-   
-    background-color: #041c33;
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-
-    /* 2.1.2: Background fixo */
-    background-attachment: fixed;
-}
 
 /* 2.3: Posicionamento */
 .hero-section {
@@ -348,55 +316,6 @@ video {
     }
 }
 
-.btn {
-
-    font-family: Helvetica;
-    font-size: 35px;
-    text-transform: inherit;
-    font-weight: 700;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    position: relative;
-    width: 500px;
-}
-
-.btn-blue{
-    background: #082746;
-    color: #fff;
-}
 
 
-.posicionarr{
-
-    position: absolute;
-    top: 50%;
-    left: 9%;
-    
-   
-}
-
-.posicionarrr{
-
-    position: absolute;
-    top: 50%;
-    left: 55%;
-   
-}
-
-.posicionar{
-
-    position: absolute;
-    top: 25%;
-    left: 9%;
-   
-}
-
-.posicionarrrr{
-
-    position: absolute;
-    top: 25%;
-    left: 55%;
-   
-}
 
